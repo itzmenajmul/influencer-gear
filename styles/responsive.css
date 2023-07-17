@@ -1,0 +1,26 @@
+/* medium device */
+@media screen and (max-width: 800px){
+    .nav-container{
+        flex-direction: column;
+      }
+}
+
+/* small device */
+@media screen and (max-width: 500px){
+    .nav-container{
+        flex-direction: column;
+      }
+}
+
+/*  */
+@media screen and (max-width: 410px){
+    .nav-container{
+        flex-direction: column;
+        margin: 10px 0px 0px;
+      }
+    
+      .nav-items {
+        flex-direction: column;
+        gap: 3px;
+    }
+}
