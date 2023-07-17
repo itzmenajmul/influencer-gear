@@ -1,21 +1,16 @@
 /* medium device */
-@media screen and (max-width: 800px){
-    .nav-container{
-        flex-direction: column;
-      }
-
-      .banner-container {
+@media screen and (max-width: 992px){
+    .nav-container,
+    .banner-container{
         flex-direction: column;
       }
 }
 
 /* small device */
 @media screen and (max-width: 576px){
-    .nav-container{
-        flex-direction: column;
-      }
-
-      .banner-container {
+    .nav-container,
+    .banner-container,
+    .sponsor-container{
         flex-direction: column;
       }
 
@@ -28,9 +23,17 @@
       .banner-title{
         font-size: 2rem;
       }
+
+      .sponsor-container img {
+        width: 100%;
+        margin: 20px auto;
+        padding: 10px;
+    }
+
+
 }
 
-/*  */
+/* mini device */
 @media screen and (max-width: 410px){
     .nav-container{
         flex-direction: column;

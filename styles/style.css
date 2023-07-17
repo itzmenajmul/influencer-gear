@@ -109,6 +109,23 @@
     width: 90%;
     
   }
-
-
   /* banner design ends here */
+
+  /* sponsor design starts here */
+  .sponsor-container{
+    border: 2px solid rgba(216, 239, 246, 0.691);
+    width: 70%;
+    min-height: 100px;
+    margin: 0 auto 100px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 8px;
+
+  }
+
+  .sponsor-container img{
+    display: block;
+    width: 10%;
+  }
+
+  /* sponsor design ends here */
