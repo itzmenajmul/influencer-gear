@@ -3,12 +3,30 @@
     .nav-container{
         flex-direction: column;
       }
+
+      .banner-container {
+        flex-direction: column;
+      }
 }
 
 /* small device */
-@media screen and (max-width: 500px){
+@media screen and (max-width: 576px){
     .nav-container{
         flex-direction: column;
+      }
+
+      .banner-container {
+        flex-direction: column;
+      }
+
+      .banner-content{
+        display: flex;
+        flex-direction: column;
+        padding: 0 30px;
+      }
+
+      .banner-title{
+        font-size: 2rem;
       }
 }
 
