@@ -4,6 +4,20 @@
     .banner-container{
         flex-direction: column;
       }
+
+      .popular-card-container {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .see-more{
+        margin: 0;
+        text-align: center;
+      }
+
+      .card {
+        width: 100%;
+        height: 100%;
+      }
 }
 
 /* small device */
